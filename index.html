@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salary</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+    
+      <div>
+        <div>
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" />
+        </div>
+        <div>
+          <label> pick up Your Degree </label>
+          <select name="degree" id="degree">
+            <option value="0">?</option>
+            <option value="1">no degree</option>
+            <option value="2">High school</option>
+            <option value="3">Diploma</option>
+            <option value="4">Bachelor</option>
+            <option value="5">Master</option>
+            <option value="6">PHD</option>
+          </select>
+        </div>
+        <div>
+          <span class="spd"></span>
+          <label for="commission">The tax:</label>
+          <input type="text" id="commission" />
+         
+        </div>
+        <div>
+          <label for="hours">Hours:</label>
+          <input type="text" id="hours" />
+        </div>
+        <div>
+          <button>Done</button>
+        </div>
+      </div>
+      <div>
+        <h1 id="fullname"></h1>
+        <h1 id="salary"></h1>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

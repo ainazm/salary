@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family:cursive ;
+  }
+  div.wrapper {
+    text-align: center;
+    padding: 60px;
+    height: 100vh;
+    background-image: url(./notbook.webp);
+    background-size: cover;
+    background-position:top;
+    
+  }
+  div.wrapper > div {
+    display: inline-block;
+    vertical-align: top;
+  }
+  div.wrapper > div > div {
+    margin: 50px 30px;
+  }
+  div.wrapper > div > div:nth-last-of-type(1) {
+    margin-top: 50px;
+    margin-right:150px;
+  }
+  div.wrapper > div:nth-of-type(1) {
+    width: 35%;
+    text-align: right;
+  }
+  div.wrapper > div:nth-of-type(1) > div {
+    position: relative;
+   
+  }
+  div.wrapper > div:nth-of-type(2) {
+    width: 50%;
+    height: 300px;
+    text-align: left;
+   
+  }
+ 
+  h1 {
+    margin-top: 50px;
+    margin-left:270px ;
+    padding: 20px;
+    font-size: 24px;
+
+   
+  }
+  h2 {
+   
+    font-size: 16px;
+    
+  }
+  input {
+    all: unset;
+    padding: 20px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: rgba(135, 237, 235, 0.696);
+    text-align: left;
+    color: rgb(32, 32, 32);
+  }
+  label {
+    font-size: 22px;
+  }
+  select {
+    padding: 5px 20px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 20px;
+    background-color:  rgba(245, 249, 249, 0.696);
+    color: rgb(62, 55, 55);
+    cursor: pointer;
+    border: rgb(212, 209, 209) 1px solid;
+  }
+  select:hover {
+    background-color: rgba(135, 237, 235, 0.696);
+  }
+  button {
+    all: unset;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color:  rgb(20, 141, 247);
+    transition: 200ms;
+  }
+  button:hover {
+    background-color: rgb(255, 255, 4);
+    color: rgb(25, 23, 23);
+  }
+  
